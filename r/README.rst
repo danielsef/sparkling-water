@@ -73,6 +73,7 @@ versions must match specific Spark and H2O versions).
 ============= ======================= =========== ================ ======================== 
 Spark_Version Sparkling_Water_Version H2O_Version H2O_Release_Name H2O_Release_Patch_Number 
 ============= ======================= =========== ================ ======================== 
+2.4           2.4.12                  3.24.0.3    rel-yates        3                        
 2.4           2.4.11                  3.24.0.3    rel-yates        3                        
 2.4           2.4.10                  3.24.0.2    rel-yates        2                        
 2.4           2.4.9                   3.24.0.1    rel-yates        1                        
@@ -84,6 +85,7 @@ Spark_Version Sparkling_Water_Version H2O_Version H2O_Release_Name H2O_Release_P
 2.4           2.4.3                   3.22.0.5    rel-xia          5                        
 2.4           2.4.2                   3.22.0.4    rel-xia          4                        
 2.4           2.4.1                   3.22.0.3    rel-xia          3                        
+2.3           2.3.30                  3.24.0.3    rel-yates        3                        
 2.3           2.3.29                  3.24.0.3    rel-yates        3                        
 2.3           2.3.28                  3.24.0.2    rel-yates        2                        
 2.3           2.3.27                  3.24.0.1    rel-yates        1                        
@@ -114,6 +116,7 @@ Spark_Version Sparkling_Water_Version H2O_Version H2O_Release_Name H2O_Release_P
 2.3           2.3.2                   3.18.0.8    rel-wolpert      8                        
 2.3           2.3.1                   3.18.0.7    rel-wolpert      7                        
 2.3           2.3.0                   3.18.0.5    rel-wolpert      5                        
+2.2           2.2.41                  3.24.0.3    rel-yates        3                        
 2.2           2.2.40                  3.24.0.3    rel-yates        3                        
 2.2           2.2.39                  3.24.0.2    rel-yates        2                        
 2.2           2.2.38                  3.24.0.1    rel-yates        1                        
@@ -155,6 +158,7 @@ Spark_Version Sparkling_Water_Version H2O_Version H2O_Release_Name H2O_Release_P
 2.2           2.2.2                   3.14.0.7    rel-weierstrass  7                        
 2.2           2.2.1                   3.14.0.6    rel-weierstrass  6                        
 2.2           2.2.0                   3.14.0.2    rel-weierstrass  2                        
+2.1           2.1.55                  3.24.0.3    rel-yates        3                        
 2.1           2.1.54                  3.24.0.3    rel-yates        3                        
 2.1           2.1.53                  3.24.0.2    rel-yates        2                        
 2.1           2.1.52                  3.24.0.1    rel-yates        1                        
@@ -302,7 +306,7 @@ central. If you don't have internet access or firewall is set up, you can specif
 This JAR file can be obtain in following steps:
 
 1. Download the Sparkling Water jar of your choice based on the integration table above.
-   To do this go to the following link where ``[SW Major Version]`` is the major version of Sparkling Water you wish to use, i.e., ``2.2`` and ``[SW Minor Version]`` is the minor version of Sparkling Water you wish to use, i.e., ``39``,
+   To do this go to the following link where ``[SW Major Version]`` is the major version of Sparkling Water you wish to use, i.e., ``2.2`` and ``[SW Minor Version]`` is the minor version of Sparkling Water you wish to use, i.e., ``40``,
    such as ``http://h2o-release.s3.amazonaws.com/sparkling-water/rel-[SW Major Version]/[SW Minor Version]/index.html``
 2. Click the ``DOWNLOAD SPARKLING WATER`` tab, which will download a ``.zip`` file of Sparkling Water.
 3. Run the following command to unzip the folder:
